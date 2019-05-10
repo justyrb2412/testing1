@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html>
+
 <head>
- 
-
-  <title>Index de imagen</title>
-
-  
+    <title>Mostrar anime</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 </head>
-<body >
-    <center> <br/><br/><br/>
-    
-    <div class="overlay"></div>
+<body background="img/img2.jpg">
+    <center> 
     <div class="container">
-    <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-    <div class="col-12 col-md-9 mb-2 mb-md-0">
-    <form action="proceso_guardar.php" method="POST" enctype="multipart/form-data">
-    <input class="form-control form-control-lg" type="text" REQUIRED name="nombre" placeholder="Nombre..." value=""/><br/><br/>
-    <input class="form-control form-control-lg" type="text" REQUIRED name="genero" placeholder="Genero..." value=""/><br/><br/>
-    <input class="form-control form-control-lg" type="text" REQUIRED name="capitulos" placeholder="Capitulos..." value=""/><br/><br/>
-    <input class="form-control form-control-lg" type="file" REQUIRED name="imagen"/><br/><br/>
-    <input class="form-control form-control-lg" type="text" REQUIRED name="link_anime" placeholder="url..." value=""/><br/><br/>
-    <input class="btn btn-block btn-lg btn-primary" type="submit" value="Aceptar">
-    <br/><br/>
-<button class="btn btn-block btn-lg btn-primary" onclick="location.href='mostrar.php'">Mostrar Lista</button>
-     </form>
-</div>
-</div>
-</div>
-
-
+     <table class="table table-bordered">
+         <thead>
+         <tr>
+             <th colspan="5"><a href="index.php">Ingresar Otro Anime</a></th>
+         </tr>
+             <tr>
+             <th bgcolor="D9E9F2">Imagen</th>
+             <th bgcolor="D9E9F2">Nombre</th>
+             <th bgcolor="D9E9F2">Genero</th>
+             <th bgcolor="D9E9F2">Capitulos</th>
+             <th bgcolor="D9E9F2">Link</th>
+      
+             </tr>
+            
+         </thead>
+         <tbody>
+                <tr>
+                <td bgcolor="D9E9F2"><img height="150px" src="#"/></td>
+                <td bgcolor="D9E9F2"></td>
+                <td bgcolor="D9E9F2"></td>
+                <td bgcolor="D9E9F2"></td> 
+                <td bgcolor="D9E9F2"><a href="#"></th>
+                
+                </tr>
+        </tbody>
+     </table>
+            </div>
     </center>
 </body>
 </html>
